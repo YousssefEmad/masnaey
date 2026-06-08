@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <!-- ============================================================
+       META CHARSET & VIEWPORT
+  ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+
+  <!-- ============================================================
+       PRIMARY SEO META TAGS
+  ============================================================ -->
+  <title>مصنعي | دليل ذكي لبيانات المصانع - ابحث عن المصنع المناسب</title>
+  <meta name="description" content="مصنعي هو الدليل الذكي الأول لبيانات المصانع في مصر والوطن العربي. ابحث عن مصانع الغذاء، الملابس، الكيماويات، الإلكترونيات وأكثر. انضم لأكبر قاعدة بيانات صناعية." />
+  <meta name="keywords" content="مصانع مصر, دليل المصانع, مصنعي, بحث عن مصنع, قطاع صناعي, مصانع غذاء, مصانع ملابس, بيانات صناعية, تصنيع, مصانع عربية" />
+  <meta name="author" content="مصنعي - Masnaey" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <!-- ============================================================
+       OPEN GRAPH (Facebook / WhatsApp / LinkedIn)
+  ============================================================ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_EG" />
+  <meta property="og:site_name" content="مصنعي" />
+  <meta property="og:title" content="مصنعي | دليل ذكي لبيانات المصانع" />
+  <meta property="og:description" content="ابحث عن المصنع المناسب من بين آلاف المصانع المسجلة في مصر والوطن العربي. دليلك الذكي للقطاع الصناعي." />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="مصنعي - دليل ذكي لبيانات المصانع" />
+
+  <!-- ============================================================
+       TWITTER CARD
+  ============================================================ -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@masnaey" />
+  <meta name="twitter:title" content="مصنعي | دليل ذكي لبيانات المصانع" />
+  <meta name="twitter:description" content="ابحث عن المصنع المناسب من بين آلاف المصانع المسجلة في مصر والوطن العربي." />
+
+  <!-- ============================================================
+       STRUCTURED DATA - JSON-LD (Schema.org)
+  ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "مصنعي",
+    "alternateName": "Masnaey",
+    "url": "https://masnaey.com/",
+    "description": "الدليل الذكي الأول لبيانات المصانع في مصر والوطن العربي",
+    "inLanguage": "ar",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://masnaey.com/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "مصنعي",
+      "url": "https://masnaey.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://masnaey.com/images/logo.png",
+        "width": 200,
+        "height": 60
+      },
+      "sameAs": [
+        "https://www.facebook.com/masnaey",
+        "https://www.twitter.com/masnaey",
+        "https://www.linkedin.com/company/masnaey",
+        "https://www.instagram.com/masnaey"
+      ]
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "مصنعي",
+    "url": "https://masnaey.com/",
+    "logo": "https://masnaey.com/images/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+20-10-0000-0000",
+      "contactType": "customer service",
+      "availableLanguage": "Arabic"
+    }
+  }
+  </script>
+
+  <!-- ============================================================
+       FAVICON
+  ============================================================ -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#104090" />
+  <meta name="msapplication-TileColor" content="#104090" />
+
+  <!-- ============================================================
+       PRECONNECT - Performance
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ============================================================
+       FONTS (Cairo - Arabic)
+  ============================================================ -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- ============================================================
+       CSS - Local Vendor + Custom
+  ============================================================ -->
+  <link rel="stylesheet" href="vendor/bootstrap.rtl.min.css" />
+  <link rel="stylesheet" href="vendor/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="vendor/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ============================================================
+       PERFORMANCE HINTS
+  ============================================================ -->
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="geo.region" content="EG" />
+  <meta name="geo.country" content="Egypt" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar-masnaey" role="navigation" aria-label="القائمة الرئيسية">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between w-100 gap-2 h-100">
+        
+                <!-- Mobile Toggle -->
+        <div class="d-flex align-items-center gap-2">
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-expanded="false" aria-label="فتح القائمة">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </button>
+        <!-- Logo -->
+        <a href="index.html" class="navbar-brand d-flex align-items-center gap-2 text-decoration-none">
+          <img src="images/logo-white.png" class="logo-white" alt="مصنعي">
+          <img src="images/logo.png" class="logo-black" alt="مصنعي">
+        </a>
+        </div>
+
+        <!-- Desktop Nav -->
+        <div class="d-none d-lg-flex align-items-center gap-1 flex-grow-1 justify-content-center">
+          <form class="hero-search-form" id="heroSearchForm" role="search" aria-label="بحث عن مصنع">
+
+                        <input
+              type="search"
+              class="search-input"
+              id="searchInput"
+              placeholder="أكتب اسم المنتج أو المصنع"
+              autocomplete="off"
+              aria-label="ابحث عن مصنع"
+            />
+            <select class="search-select" id="searchCategory" aria-label="اختر المحافظة">
+              <option value="">اختر المحافظة</option>
+               <option value="cairo">القاهرة</option>
+              <option value="giza">الجيزة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="10th">مدينة العاشر</option>
+              <option value="6th">مدينة السادس من أكتوبر</option>
+              <option value="badr">مدينة بدر</option>
+              <option value="suez">السويس</option>
+            </select>
+
+
+            <select class="search-select" id="searchRegion" aria-label="اختر المدينه">
+              <option value="">اختر المدينة او الحى </option>
+              <option value="cairo">القاهرة</option>
+              <option value="giza">الجيزة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="10th">مدينة العاشر</option>
+              <option value="6th">مدينة السادس من أكتوبر</option>
+              <option value="badr">مدينة بدر</option>
+              <option value="suez">السويس</option>
+            </select>
+
+
+
+
+            <button type="submit" class="btn-search" aria-label="بحث">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              بحث
+            </button>
+
+          </form>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="d-flex align-items-center gap-2">
+           <div class="dropdown d-none d-lg-block">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              روابط مفيدة
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">من نحن</a></li>
+              <li><a class="dropdown-item" href="#">جميع القطاعات</a></li>
+              <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold text-primary" href="#">كل الفئات</a></li>
+            </ul>
+          </div>
+          <a href="login.html" class="btn-white">أنضم معنا</a>
+          <a href="register.html" class="btn btn-bg">En</a>
+          
+        </div>
+
+
+
+      </div>
+
+      <!-- Mobile Nav Collapse -->
+      <div class="collapse navbar-collapse" id="mobileNav">
+        <ul class="py-2">
+          <li><a href="#" class="nav-link">الرئيسية</a></li>
+          <li><a href="#" class="nav-link">الفئات</a></li>
+          <li><a href="#" class="nav-link">المصانع</a></li>
+          <li><a href="#" class="nav-link">الأخبار</a></li>
+          <li><a href="#" class="nav-link">تواصل معنا</a></li>
+        </ul>
+        <div class="d-flex flex-column gap-2 pb-3 px-2">
+          <a href="login.html" class="btn-nav-login text-center">تسجيل دخول</a>
+          <a href="register.html" class="btn-nav-register text-center">تسجيل مصنعك</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section class="hero-section" aria-label="البحث عن مصنع" style="background-image: url('/images/banner-hero.jpg');">
+   <div class="logo-shap" style="background-image: url('/images/shap-banner.png');" aria-hidden="true">
+     <div class="container position-relative">
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-9 col-xl-8 text-center">
+
+          <h1 class="hero-title mb-4">
+            لما تدور على مصنع
+            <br />ابدأ من هنا
+          </h1>
+
+          <!-- Search Form -->
+          <form class="hero-search-form" id="heroSearchForm" role="search" aria-label="بحث عن مصنع">
+
+                        <input
+              type="search"
+              class="search-input"
+              id="searchInput"
+              placeholder="أكتب اسم المنتج أو المصنع"
+              autocomplete="off"
+              aria-label="ابحث عن مصنع"
+            />
+            <div class="search-divider" aria-hidden="true"></div>
+            <select class="search-select" id="searchCategory" aria-label="اختر الفئة">
+              <option value="">اختر المحافظة</option>
+              <option value="cairo">القاهرة</option>
+              <option value="giza">الجيزة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="10th">مدينة العاشر</option>
+              <option value="6th">مدينة السادس من أكتوبر</option>
+              <option value="badr">مدينة بدر</option>
+              <option value="suez">السويس</option>
+            </select>
+
+            <div class="search-divider" aria-hidden="true"></div>
+
+            <select class="search-select" id="searchRegion" aria-label="اختر المنطقة">
+              <option value="">اختر المدينة او الحى </option>
+              <option value="cairo">القاهرة</option>
+              <option value="giza">الجيزة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="10th">مدينة العاشر</option>
+              <option value="6th">مدينة السادس من أكتوبر</option>
+              <option value="badr">مدينة بدر</option>
+              <option value="suez">السويس</option>
+            </select>
+
+            
+
+
+
+            <button type="submit" class="btn-search" aria-label="بحث">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              بحث
+            </button>
+
+          </form>
+          <span class="hero-description">دور أٌقل أوصل اسرع</span>
+
+        </div>
+      </div>
+
+    </div>
+   </div>
+  </section>
+
+  <!-- ============================================================
+       CATEGORIES SECTION
+  ============================================================ -->
+  <section class="categories-section" aria-labelledby="cats-title">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-title" id="cats-title">كل الفئات</h2>
+        <a href="categories.html" class="section-link">
+          عرض الكل <i class="fa-solid fa-arrow-left fa-xs ms-1" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="row g-3">
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">الغذاء والمشروبات</p>
+              <p class="category-count">١٢٤٠ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-shirt" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">الملابس والمنسوجات</p>
+              <p class="category-count">٨٩٦ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-flask" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">الكيماويات</p>
+              <p class="category-count">٦٣٢ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">الإلكترونيات</p>
+              <p class="category-count">٤١٥ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-hard-hat" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">مواد البناء</p>
+              <p class="category-count">٥٧٨ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
+          <article class="category-card h-100">
+            <div class="category-icon">
+              <i class="fa-solid fa-gears" aria-hidden="true"></i>
+            </div>
+            <div>
+              <p class="category-name mb-0">الهندسية والميكانيكية</p>
+              <p class="category-count">٧٢١ مصنع</p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FACTORIES SWIPER - رأي المصانع
+  ============================================================ -->
+  <section class="factories-section" aria-labelledby="factories-title">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-title" id="factories-title">رأي المصانع</h2>
+        <div class="d-flex align-items-center gap-3">
+          <a href="factories.html" class="section-link d-none d-sm-inline-flex align-items-center gap-1">
+            عرض الكل <i class="fa-solid fa-arrow-left fa-xs ms-1" aria-hidden="true"></i>
+          </a>
+          <div class="d-flex gap-2">
+            <button class="swiper-nav-btn factories-prev" aria-label="السابق">
+              <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+            </button>
+            <button class="swiper-nav-btn factories-next" aria-label="التالي">
+              <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper Container -->
+      <div class="swiper swiper-factories" role="region" aria-label="قائمة المصانع">
+        <div class="swiper-wrapper">
+
+          <!-- Factory Card 1 -->
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <div class="factory-card-header">
+                <div class="factory-logo">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🏭%3C/text%3E%3C/svg%3E"
+                    alt="الصناعات المصرية للأغذية"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="factory-info">
+                  <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+                  <p class="factory-location">
+                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
+                    مدينة العاشر من رمضان
+                  </p>
+                </div>
+                <div class="factory-verified">
+                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
+                  موثق
+                </div>
+              </div>
+              <p class="factory-desc">
+                مصنع متخصص في إنتاج المواد الغذائية المعلبة والمحفوظة بأعلى معايير الجودة والسلامة الغذائية. نمتلك خطوط إنتاج حديثة وطاقة إنتاجية عالية.
+              </p>
+              <div class="factory-card-footer">
+                <div class="factory-stats">
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
+                    غذاء
+                  </span>
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-users" aria-hidden="true"></i>
+                    ٢٥٠+ عامل
+                  </span>
+                </div>
+                <button type="button" class="btn-factory-view">عرض المصنع</button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Factory Card 2 -->
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <div class="factory-card-header">
+                <div class="factory-logo">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E⚙️%3C/text%3E%3C/svg%3E"
+                    alt="مصنع النسيج المتحد"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="factory-info">
+                  <h3 class="factory-name">مصنع النسيج المتحد</h3>
+                  <p class="factory-location">
+                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
+                    مدينة السادس من أكتوبر
+                  </p>
+                </div>
+                <div class="factory-verified">
+                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
+                  موثق
+                </div>
+              </div>
+              <p class="factory-desc">
+                رائدون في صناعة الأقمشة والملابس الجاهزة منذ أكثر من ٢٠ عاماً. نصدر منتجاتنا لأكثر من ١٥ دولة حول العالم بجودة عالمية.
+              </p>
+              <div class="factory-card-footer">
+                <div class="factory-stats">
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
+                    نسيج
+                  </span>
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-users" aria-hidden="true"></i>
+                    ٥٠٠+ عامل
+                  </span>
+                </div>
+                <button type="button" class="btn-factory-view">عرض المصنع</button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Factory Card 3 -->
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <div class="factory-card-header">
+                <div class="factory-logo">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🔬%3C/text%3E%3C/svg%3E"
+                    alt="الكيماويات الصناعية المصرية"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="factory-info">
+                  <h3 class="factory-name">الكيماويات الصناعية المصرية</h3>
+                  <p class="factory-location">
+                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
+                    السويس، منطقة صناعية
+                  </p>
+                </div>
+                <div class="factory-verified">
+                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
+                  موثق
+                </div>
+              </div>
+              <p class="factory-desc">
+                متخصصون في إنتاج المواد الكيماوية الصناعية ومواد التنظيف. نطبق أعلى معايير السلامة والجودة وفق المعايير الدولية ISO 9001.
+              </p>
+              <div class="factory-card-footer">
+                <div class="factory-stats">
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
+                    كيماويات
+                  </span>
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-users" aria-hidden="true"></i>
+                    ١٨٠+ عامل
+                  </span>
+                </div>
+                <button type="button" class="btn-factory-view">عرض المصنع</button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Factory Card 4 -->
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <div class="factory-card-header">
+                <div class="factory-logo">
+                  <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🏗️%3C/text%3E%3C/svg%3E"
+                    alt="شركة البناء المتطور"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="factory-info">
+                  <h3 class="factory-name">شركة البناء المتطور</h3>
+                  <p class="factory-location">
+                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
+                    بدر، القاهرة الجديدة
+                  </p>
+                </div>
+                <div class="factory-verified">
+                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
+                  موثق
+                </div>
+              </div>
+              <p class="factory-desc">
+                مصنع رائد في إنتاج مواد البناء الحديثة من طوب وبلاط وعوازل. نخدم مشاريع التطوير العقاري الكبرى في مصر.
+              </p>
+              <div class="factory-card-footer">
+                <div class="factory-stats">
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
+                    بناء
+                  </span>
+                  <span class="factory-stat">
+                    <i class="fa-solid fa-users" aria-hidden="true"></i>
+                    ٣٢٠+ عامل
+                  </span>
+                </div>
+                <button type="button" class="btn-factory-view">عرض المصنع</button>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+      <!-- /Swiper -->
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY MASNAEY - لماذا مصنعي؟
+  ============================================================ -->
+  <section class="why-section" aria-labelledby="why-title">
+    <div class="container">
+
+      <div class="section-header justify-content-center mb-4">
+        <h2 class="section-title text-center" id="why-title">لماذا مصنعي؟</h2>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>
+            </div>
+            <h3 class="why-title">بحث ذكي وسريع</h3>
+            <p class="why-desc">ابحث عن أي مصنع في ثوانٍ باستخدام محرك البحث الذكي المتخصص في القطاع الصناعي.</p>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+            </div>
+            <h3 class="why-title">بيانات موثوقة</h3>
+            <p class="why-desc">جميع بيانات المصانع مراجعة وموثقة بعناية لضمان دقة المعلومات وموثوقيتها.</p>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+            </div>
+            <h3 class="why-title">تواصل مباشر</h3>
+            <p class="why-desc">تواصل مع المصانع مباشرة وطلب عروض الأسعار بسهولة تامة من خلال المنصة.</p>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+          <article class="why-card">
+            <div class="why-icon-wrap">
+              <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+            </div>
+            <h3 class="why-title">إضافة طاقة</h3>
+            <p class="why-desc">سجّل مصنعك وزد من ظهوره أمام آلاف المشترين والمستثمرين يومياً.</p>
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA SECTION
+  ============================================================ -->
+  <section class="cta-section" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-lg-7">
+          <h2 class="cta-title" id="cta-title">
+            انضم إلى الآلاف من أصحاب المصانع في مصنعي
+          </h2>
+          <p class="cta-desc">
+            أكبر دليل للمصانع في مصر والوطن العربي. سجّل مصنعك مجاناً وابدأ في استقبال طلبات الشراء والتواصل مع المشترين.
+          </p>
+        </div>
+
+        <div class="col-12 col-lg-5 text-lg-end">
+          <a href="register.html" class="btn-cta">
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+            سجّل مصنعك الآن
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NEWS SECTION - أخبار الصناعة المصرية
+  ============================================================ -->
+  <section class="news-section" aria-labelledby="news-title">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-title" id="news-title">أخبار الصناعة المصرية</h2>
+        <a href="news.html" class="section-link d-flex align-items-center gap-1">
+          كل الأخبار <i class="fa-solid fa-arrow-left fa-xs ms-1" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-lg-4 aos-fade-up">
+          <article class="news-card">
+            <div class="news-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48' fill='%23104090'%3E🏭%3C/text%3E%3C/svg%3E"
+                alt="الصناعات المصرية"
+                width="400" height="200"
+                loading="lazy"
+                class="lazy"
+                data-src="images/news-1.jpg"
+              />
+              <span class="news-category-badge">صناعة</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">الصناعات المصرية تحقق نمواً قياسياً في الصادرات خلال 2025</h3>
+              <p class="news-excerpt">
+                كشفت الإحصاءات الرسمية عن تحقيق القطاع الصناعي المصري معدلات نمو استثنائية في الصادرات خلال العام الماضي، مع توقعات بمزيد من التوسع.
+              </p>
+              <div class="news-meta">
+                <span class="news-date">
+                  <i class="fa-regular fa-calendar fa-xs" aria-hidden="true"></i>
+                  ٥ يونيو ٢٠٢٦
+                </span>
+                <a href="news/article-1.html" class="news-read-more" aria-label="قرأ المزيد عن أخبار الصناعة">
+                  اقرأ أكثر
+                  <i class="fa-solid fa-arrow-left fa-xs" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 aos-fade-up">
+          <article class="news-card">
+            <div class="news-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23DBEAFE'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48' fill='%232433BB'%3E⚙️%3C/text%3E%3C/svg%3E"
+                alt="تكنولوجيا التصنيع"
+                width="400" height="200"
+                loading="lazy"
+                class="lazy"
+                data-src="images/news-2.jpg"
+              />
+              <span class="news-category-badge">تكنولوجيا</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">الذكاء الاصطناعي يدخل خطوط الإنتاج في مصانع مصر الكبرى</h3>
+              <p class="news-excerpt">
+                بدأت العديد من المصانع المصرية الكبرى في دمج تقنيات الذكاء الاصطناعي في خطوط الإنتاج لزيادة الكفاءة وخفض التكاليف التشغيلية.
+              </p>
+              <div class="news-meta">
+                <span class="news-date">
+                  <i class="fa-regular fa-calendar fa-xs" aria-hidden="true"></i>
+                  ٣ يونيو ٢٠٢٦
+                </span>
+                <a href="news/article-2.html" class="news-read-more" aria-label="اقرأ المزيد عن الذكاء الاصطناعي في التصنيع">
+                  اقرأ أكثر
+                  <i class="fa-solid fa-arrow-left fa-xs" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4 aos-fade-up">
+          <article class="news-card">
+            <div class="news-img-wrap">
+              <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Crect width='400' height='200' fill='%23E0F2FE'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='48' fill='%230369A1'%3E📦%3C/text%3E%3C/svg%3E"
+                alt="مدن صناعية"
+                width="400" height="200"
+                loading="lazy"
+                class="lazy"
+                data-src="images/news-3.jpg"
+              />
+              <span class="news-category-badge">استثمار</span>
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">إطلاق مدينة صناعية متكاملة جديدة في المنطقة الاقتصادية لقناة السويس</h3>
+              <p class="news-excerpt">
+                أعلنت الجهات المختصة عن الانتهاء من تجهيز مرحلة أولى من المدينة الصناعية الجديدة التي ستستوعب أكثر من ٥٠٠ مصنع.
+              </p>
+              <div class="news-meta">
+                <span class="news-date">
+                  <i class="fa-regular fa-calendar fa-xs" aria-hidden="true"></i>
+                  ١ يونيو ٢٠٢٦
+                </span>
+                <a href="news/article-3.html" class="news-read-more" aria-label="اقرأ المزيد عن المدينة الصناعية">
+                  اقرأ أكثر
+                  <i class="fa-solid fa-arrow-left fa-xs" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row g-4 g-lg-5">
+
+        <!-- Brand -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="footer-brand">
+            <svg width="120" height="38" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="مصنعي">
+              <text x="10" y="46" font-family="Cairo,sans-serif" font-size="44" font-weight="900" fill="#ffffff">مصنعي</text>
+            </svg>
+            <p class="mt-3">
+              الدليل الذكي الأول لبيانات المصانع في مصر والوطن العربي. نربطك بآلاف المصانع الموثقة.
+            </p>
+            <div class="footer-social" aria-label="وسائل التواصل الاجتماعي">
+              <a href="#" aria-label="فيسبوك"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="#" aria-label="تويتر"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+              <a href="#" aria-label="لينكدإن"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="انستجرام"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+              <a href="#" aria-label="يوتيوب"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Links 1 -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <h4 class="footer-heading">روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="/">الرئيسية</a></li>
+            <li><a href="categories.html">الفئات</a></li>
+            <li><a href="factories.html">المصانع</a></li>
+            <li><a href="news.html">الأخبار</a></li>
+            <li><a href="about.html">من نحن</a></li>
+          </ul>
+        </div>
+
+        <!-- Links 2 -->
+        <div class="col-6 col-md-3 col-lg-2">
+          <h4 class="footer-heading">للمصانع</h4>
+          <ul class="footer-links">
+            <li><a href="register.html">تسجيل مصنع</a></li>
+            <li><a href="login.html">تسجيل دخول</a></li>
+            <li><a href="pricing.html">باقات الاشتراك</a></li>
+            <li><a href="advertise.html">الإعلان معنا</a></li>
+            <li><a href="faq.html">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="footer-heading">تواصل معنا</h4>
+          <ul class="footer-contact">
+            <li>
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <span dir="ltr">+20 10 0000 0000</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:info@masnaey.com" style="color:inherit">info@masnaey.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              القاهرة، جمهورية مصر العربية
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-7 text-center text-md-start">
+            <p>© ٢٠٢٦ مصنعي. جميع الحقوق محفوظة.</p>
+          </div>
+          <div class="col-12 col-md-5 text-center text-md-end mt-2 mt-md-0">
+            <p>
+              <a href="privacy.html" style="color:rgba(255,255,255,.5)">سياسة الخصوصية</a>
+              <span style="color:rgba(255,255,255,.3)" class="mx-2">|</span>
+              <a href="terms.html" style="color:rgba(255,255,255,.5)">الشروط والأحكام</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scroll To Top -->
+  <button id="scrollToTop" aria-label="العودة للأعلى" title="العودة للأعلى">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- ============================================================
+       SCRIPTS - Local Vendor (Performance First)
+  ============================================================ -->
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/bootstrap.bundle.min.js"></script>
+  <script src="vendor/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
