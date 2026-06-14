@@ -77,9 +77,11 @@ $(function () {
   ============================================================ */
   if (typeof Swiper !== 'undefined') {
     new Swiper('.swiper-factories', {
-      slidesPerView: 1.15,
-      spaceBetween: 16,
-      loop: false,
+    slidesPerView: 1.2,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 30,
+    speed: 600,
       grabCursor: true,
       dir: 'rtl',
       navigation: {
@@ -92,6 +94,25 @@ $(function () {
         768: { slidesPerView: 2.2, spaceBetween: 20 },
         992: { slidesPerView: 3,   spaceBetween: 22 },
         1200:{ slidesPerView: 3,   spaceBetween: 24 },
+      },
+      a11y: {
+        prevSlideMessage: 'الشريحة السابقة',
+        nextSlideMessage: 'الشريحة التالية',
+      },
+    });
+  }
+  if (typeof Swiper !== 'undefined') {
+    new Swiper('.swiper-categories', {
+      slidesPerView: 1.15,
+      spaceBetween: 16,
+      loop: true,
+      grabCursor: true,
+      dir: 'rtl',
+      breakpoints: {
+        576: { slidesPerView: 1.5, spaceBetween: 18 },
+        768: { slidesPerView: 2.2, spaceBetween: 20 },
+        992: { slidesPerView: 3.1,   spaceBetween: 22 },
+        1200:{ slidesPerView: 6.1,   spaceBetween: 24 },
       },
       a11y: {
         prevSlideMessage: 'الشريحة السابقة',

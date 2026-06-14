@@ -109,10 +109,9 @@
   ============================================================ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <!-- ============================================================
-       FONTS (Cairo - Arabic)
-  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
   <!-- ============================================================
@@ -312,107 +311,123 @@
   <!-- ============================================================
        CATEGORIES SECTION
   ============================================================ -->
-  <section class="categories-section" aria-labelledby="cats-title">
+  <section class="categories-section section-padding" aria-labelledby="cats-title">
     <div class="container">
 
       <div class="section-header">
-        <h2 class="section-title" id="cats-title">كل الفئات</h2>
+        <h2 class="section-title" id="cats-title">كل <span>القطاعات</span></h2>
         <a href="categories.html" class="section-link">
-          عرض الكل <i class="fa-solid fa-arrow-left fa-xs ms-1" aria-hidden="true"></i>
+          عرض الجميع  <i class="fa-solid fa-angle-left"></i>
         </a>
       </div>
 
-      <div class="row g-3">
 
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+      <div class="swiper swiper-categories" role="region" aria-label="قائمة القطاعات">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-utensils" aria-hidden="true"></i>
+              <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">الغذاء والمشروبات</p>
+              <p class="category-name">الغذاء والمشروبات</p>
               <p class="category-count">١٢٤٠ مصنع</p>
             </div>
           </article>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-shirt" aria-hidden="true"></i>
+             <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">الملابس والمنسوجات</p>
+              <p class="category-name">الملابس والمنسوجات</p>
               <p class="category-count">٨٩٦ مصنع</p>
             </div>
           </article>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-flask" aria-hidden="true"></i>
+              <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">الكيماويات</p>
+              <p class="category-name">الكيماويات</p>
               <p class="category-count">٦٣٢ مصنع</p>
             </div>
           </article>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-microchip" aria-hidden="true"></i>
+              <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">الإلكترونيات</p>
+              <p class="category-name">الإلكترونيات</p>
               <p class="category-count">٤١٥ مصنع</p>
             </div>
           </article>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-hard-hat" aria-hidden="true"></i>
+              <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">مواد البناء</p>
+              <p class="category-name">مواد البناء</p>
               <p class="category-count">٥٧٨ مصنع</p>
             </div>
           </article>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 aos-fade-up">
-          <article class="category-card h-100">
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
             <div class="category-icon">
-              <i class="fa-solid fa-gears" aria-hidden="true"></i>
+              <img src="images/icon-categoury.svg" alt="">
             </div>
             <div>
-              <p class="category-name mb-0">الهندسية والميكانيكية</p>
+              <p class="category-name">الهندسية والميكانيكية</p>
               <p class="category-count">٧٢١ مصنع</p>
             </div>
           </article>
-        </div>
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
+            <div class="category-icon">
+              <img src="images/icon-categoury.svg" alt="">
+            </div>
+            <div>
+              <p class="category-name">الهندسية والميكانيكية</p>
+              <p class="category-count">٧٢١ مصنع</p>
+            </div>
+          </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="category-card">
+            <div class="category-icon">
+              <img src="images/icon-categoury.svg" alt="">
+            </div>
+            <div>
+              <p class="category-name">الهندسية والميكانيكية</p>
+              <p class="category-count">٧٢١ مصنع</p>
+            </div>
+          </article>
+          </div>
 
+        </div>
       </div>
 
     </div>
   </section>
 
   <!-- ============================================================
-       FACTORIES SWIPER - رأي المصانع
+       FACTORIES SWIPER
   ============================================================ -->
-  <section class="factories-section" aria-labelledby="factories-title">
+  <section class="factories-section section-padding" aria-labelledby="factories-title">
     <div class="container">
-
       <div class="section-header">
-        <h2 class="section-title" id="factories-title">رأي المصانع</h2>
+        <h2 class="section-title" id="cats-title">راعى <span>النشاط</span></h2>
         <div class="d-flex align-items-center gap-3">
-          <a href="factories.html" class="section-link d-none d-sm-inline-flex align-items-center gap-1">
-            عرض الكل <i class="fa-solid fa-arrow-left fa-xs ms-1" aria-hidden="true"></i>
-          </a>
           <div class="d-flex gap-2">
             <button class="swiper-nav-btn factories-prev" aria-label="السابق">
               <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
@@ -431,174 +446,129 @@
           <!-- Factory Card 1 -->
           <div class="swiper-slide">
             <article class="factory-card">
+              <span class="sponsor-badge">
+                راعي النشاط
+            </span>
               <div class="factory-card-header">
-                <div class="factory-logo">
                   <img
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🏭%3C/text%3E%3C/svg%3E"
+                    src="images/logo-m.jpg"
                     alt="الصناعات المصرية للأغذية"
                     width="56" height="56"
                     loading="lazy"
                   />
-                </div>
-                <div class="factory-info">
-                  <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+               
+              </div>
+              
+               <div class="factory-info">
+                <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+              <p class="factory-desc">
+                مصنع رائد في تصنيع المنسوجات والملابس عالية الجودة
+              </p>
                   <p class="factory-location">
-                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
+                    <img src="images/location.svg" alt="">
                     مدينة العاشر من رمضان
                   </p>
                 </div>
-                <div class="factory-verified">
-                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
-                  موثق
-                </div>
-              </div>
-              <p class="factory-desc">
-                مصنع متخصص في إنتاج المواد الغذائية المعلبة والمحفوظة بأعلى معايير الجودة والسلامة الغذائية. نمتلك خطوط إنتاج حديثة وطاقة إنتاجية عالية.
-              </p>
               <div class="factory-card-footer">
-                <div class="factory-stats">
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
-                    غذاء
-                  </span>
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-users" aria-hidden="true"></i>
-                    ٢٥٠+ عامل
-                  </span>
+                <a href="" class="btn"><img src="images/document-text.png" alt="">عرض الملف</a>
+                <a href="" class="btn-white"> <img src="images/Vector.png" alt="">تواصل معنـــــا </a>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <span class="sponsor-badge">
+                راعي النشاط
+            </span>
+              <div class="factory-card-header">
+                  <img
+                    src="images/logo-m.jpg"
+                    alt="الصناعات المصرية للأغذية"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+               
+              </div>
+              
+               <div class="factory-info">
+                <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+              <p class="factory-desc">
+                مصنع رائد في تصنيع المنسوجات والملابس عالية الجودة
+              </p>
+                  <p class="factory-location">
+                    <img src="images/location.svg" alt="">
+                    مدينة العاشر من رمضان
+                  </p>
                 </div>
-                <button type="button" class="btn-factory-view">عرض المصنع</button>
+              <div class="factory-card-footer">
+                <a href="" class="btn"><img src="images/document-text.png" alt="">عرض الملف</a>
+                <a href="" class="btn-white"> <img src="images/Vector.png" alt="">تواصل معنـــــا </a>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <span class="sponsor-badge">
+                راعي النشاط
+            </span>
+              <div class="factory-card-header">
+                  <img
+                    src="images/logo-m.jpg"
+                    alt="الصناعات المصرية للأغذية"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+               
+              </div>
+              
+               <div class="factory-info">
+                <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+              <p class="factory-desc">
+                مصنع رائد في تصنيع المنسوجات والملابس عالية الجودة
+              </p>
+                  <p class="factory-location">
+                    <img src="images/location.svg" alt="">
+                    مدينة العاشر من رمضان
+                  </p>
+                </div>
+              <div class="factory-card-footer">
+                <a href="" class="btn"><img src="images/document-text.png" alt="">عرض الملف</a>
+                <a href="" class="btn-white"> <img src="images/Vector.png" alt="">تواصل معنـــــا </a>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="factory-card">
+              <span class="sponsor-badge">
+                راعي النشاط
+            </span>
+              <div class="factory-card-header">
+                  <img
+                    src="images/logo-m.jpg"
+                    alt="الصناعات المصرية للأغذية"
+                    width="56" height="56"
+                    loading="lazy"
+                  />
+               
+              </div>
+              
+               <div class="factory-info">
+                <h3 class="factory-name">الصناعات المصرية للأغذية</h3>
+              <p class="factory-desc">
+                مصنع رائد في تصنيع المنسوجات والملابس عالية الجودة
+              </p>
+                  <p class="factory-location">
+                    <img src="images/location.svg" alt="">
+                    مدينة العاشر من رمضان
+                  </p>
+                </div>
+              <div class="factory-card-footer">
+                <a href="" class="btn"><img src="images/document-text.png" alt="">عرض الملف</a>
+                <a href="" class="btn-white"> <img src="images/Vector.png" alt="">تواصل معنـــــا </a>
               </div>
             </article>
           </div>
 
-          <!-- Factory Card 2 -->
-          <div class="swiper-slide">
-            <article class="factory-card">
-              <div class="factory-card-header">
-                <div class="factory-logo">
-                  <img
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E⚙️%3C/text%3E%3C/svg%3E"
-                    alt="مصنع النسيج المتحد"
-                    width="56" height="56"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="factory-info">
-                  <h3 class="factory-name">مصنع النسيج المتحد</h3>
-                  <p class="factory-location">
-                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
-                    مدينة السادس من أكتوبر
-                  </p>
-                </div>
-                <div class="factory-verified">
-                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
-                  موثق
-                </div>
-              </div>
-              <p class="factory-desc">
-                رائدون في صناعة الأقمشة والملابس الجاهزة منذ أكثر من ٢٠ عاماً. نصدر منتجاتنا لأكثر من ١٥ دولة حول العالم بجودة عالمية.
-              </p>
-              <div class="factory-card-footer">
-                <div class="factory-stats">
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
-                    نسيج
-                  </span>
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-users" aria-hidden="true"></i>
-                    ٥٠٠+ عامل
-                  </span>
-                </div>
-                <button type="button" class="btn-factory-view">عرض المصنع</button>
-              </div>
-            </article>
-          </div>
-
-          <!-- Factory Card 3 -->
-          <div class="swiper-slide">
-            <article class="factory-card">
-              <div class="factory-card-header">
-                <div class="factory-logo">
-                  <img
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🔬%3C/text%3E%3C/svg%3E"
-                    alt="الكيماويات الصناعية المصرية"
-                    width="56" height="56"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="factory-info">
-                  <h3 class="factory-name">الكيماويات الصناعية المصرية</h3>
-                  <p class="factory-location">
-                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
-                    السويس، منطقة صناعية
-                  </p>
-                </div>
-                <div class="factory-verified">
-                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
-                  موثق
-                </div>
-              </div>
-              <p class="factory-desc">
-                متخصصون في إنتاج المواد الكيماوية الصناعية ومواد التنظيف. نطبق أعلى معايير السلامة والجودة وفق المعايير الدولية ISO 9001.
-              </p>
-              <div class="factory-card-footer">
-                <div class="factory-stats">
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
-                    كيماويات
-                  </span>
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-users" aria-hidden="true"></i>
-                    ١٨٠+ عامل
-                  </span>
-                </div>
-                <button type="button" class="btn-factory-view">عرض المصنع</button>
-              </div>
-            </article>
-          </div>
-
-          <!-- Factory Card 4 -->
-          <div class="swiper-slide">
-            <article class="factory-card">
-              <div class="factory-card-header">
-                <div class="factory-logo">
-                  <img
-                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' rx='8' fill='%23EFF6FF'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='22' font-family='Cairo,sans-serif' fill='%23104090'%3E🏗️%3C/text%3E%3C/svg%3E"
-                    alt="شركة البناء المتطور"
-                    width="56" height="56"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="factory-info">
-                  <h3 class="factory-name">شركة البناء المتطور</h3>
-                  <p class="factory-location">
-                    <i class="fa-solid fa-location-dot fa-xs" aria-hidden="true"></i>
-                    بدر، القاهرة الجديدة
-                  </p>
-                </div>
-                <div class="factory-verified">
-                  <i class="fa-solid fa-circle-check fa-xs" aria-hidden="true"></i>
-                  موثق
-                </div>
-              </div>
-              <p class="factory-desc">
-                مصنع رائد في إنتاج مواد البناء الحديثة من طوب وبلاط وعوازل. نخدم مشاريع التطوير العقاري الكبرى في مصر.
-              </p>
-              <div class="factory-card-footer">
-                <div class="factory-stats">
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-industry" aria-hidden="true"></i>
-                    بناء
-                  </span>
-                  <span class="factory-stat">
-                    <i class="fa-solid fa-users" aria-hidden="true"></i>
-                    ٣٢٠+ عامل
-                  </span>
-                </div>
-                <button type="button" class="btn-factory-view">عرض المصنع</button>
-              </div>
-            </article>
-          </div>
 
         </div>
       </div>
@@ -610,56 +580,63 @@
   <!-- ============================================================
        WHY MASNAEY - لماذا مصنعي؟
   ============================================================ -->
-  <section class="why-section" aria-labelledby="why-title">
+  <section class="why-section section-padding " aria-labelledby="why-title">
     <div class="container">
-
-      <div class="section-header justify-content-center mb-4">
-        <h2 class="section-title text-center" id="why-title">لماذا مصنعي؟</h2>
+      <div class="section-header">
+         <h2 class="section-title text-center" id="why-title">لماذا <span>مصنعي؟</span></h2>
       </div>
 
       <div class="row g-4">
 
-        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
-          <article class="why-card">
-            <div class="why-icon-wrap">
-              <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>
-            </div>
-            <h3 class="why-title">بحث ذكي وسريع</h3>
-            <p class="why-desc">ابحث عن أي مصنع في ثوانٍ باستخدام محرك البحث الذكي المتخصص في القطاع الصناعي.</p>
-          </article>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
-          <article class="why-card">
-            <div class="why-icon-wrap">
-              <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
-            </div>
-            <h3 class="why-title">بيانات موثوقة</h3>
-            <p class="why-desc">جميع بيانات المصانع مراجعة وموثقة بعناية لضمان دقة المعلومات وموثوقيتها.</p>
-          </article>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
-          <article class="why-card">
-            <div class="why-icon-wrap">
-              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
-            </div>
-            <h3 class="why-title">تواصل مباشر</h3>
-            <p class="why-desc">تواصل مع المصانع مباشرة وطلب عروض الأسعار بسهولة تامة من خلال المنصة.</p>
-          </article>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
-          <article class="why-card">
-            <div class="why-icon-wrap">
-              <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-            </div>
-            <h3 class="why-title">إضافة طاقة</h3>
-            <p class="why-desc">سجّل مصنعك وزد من ظهوره أمام آلاف المشترين والمستثمرين يومياً.</p>
-          </article>
-        </div>
-
+  <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+    <article class="why-card">
+      <div class="why-icon-wrap">
+        <i class="fa-regular fa-circle-check" aria-hidden="true"></i>
       </div>
+      <div class="des-why">
+        <h3 class="why-title">مصانع موثقة</h3>
+      <p class="why-desc">جميع المصانع مراجعة وموثقة</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+    <article class="why-card">
+      <div class="why-icon-wrap">
+        <i class="fa-regular fa-circle-dot" aria-hidden="true"></i>
+      </div>
+      <div class="des-why">
+        <h3 class="why-title">بيانات دقيقة</h3>
+      <p class="why-desc">معلومات كاملة ومحدثة</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+    <article class="why-card">
+      <div class="why-icon-wrap">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      </div>
+      <div class="des-why">
+        <h3 class="why-title">بحث سهل وسريع</h3>
+      <p class="why-desc">قارن بين المصانع بسهولة</p>
+      </div>
+    </article>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-3 aos-fade-up">
+    <article class="why-card">
+      <div class="why-icon-wrap">
+        <i class="fa-regular fa-comment-dots" aria-hidden="true"></i>
+      </div>
+      <div class="des-why">
+        <h3 class="why-title">تواصل مباشر</h3>
+      <p class="why-desc">تواصل مع المصنع مباشرةً</p>
+      </div>
+    </article>
+  </div>
+
+</div>
 
     </div>
   </section>
